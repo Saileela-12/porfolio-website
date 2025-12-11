@@ -162,9 +162,6 @@
     .main-section {
         flex-direction: column;
         text-align: center;
-        max-width: 90%;
-        margin: 0 auto;
-
     }
 
     .name {
@@ -186,5 +183,11 @@
 
     .image {
         order: -1;
+        display: block;
+        margin: 20px auto;
+        border-radius: 12px;
+        width: 80%;
+        max-width: 300px;
+        margin-top: 20px;
     }
 }
