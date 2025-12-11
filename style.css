@@ -17,17 +17,6 @@
     text-align: center;
 }
 
-@media(max-width: 768px) {
-    .main-section {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .image {
-        order: -1;
-    }
-}
-
 .bg-container {
     background-image: url("https://res.cloudinary.com/dgnaqakyg/image/upload/v1763546238/workstation-with_laptop_pudqfn.jpg");
     min-height: 100vh;
@@ -157,4 +146,26 @@
 #navItem5 {
     font-family: "Roboto";
     color: #323f4b;
+}
+
+
+@media(max-width: 768px) {
+    .main-section {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .name{
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    .role{
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 15px 0;
+    }
+
+    .image {
+        order: -1;
+    }
 }
