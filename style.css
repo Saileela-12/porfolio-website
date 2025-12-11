@@ -24,11 +24,7 @@
     background-position: center;
 }
 
-.home {
-    padding: 50px;
-    padding-top: 100px;
-    padding-right: 100px;
-}
+
 
 .education {
     padding: 20px;
@@ -39,10 +35,11 @@
 }
 
 .project1 {
-    margin-top:20px;
+    margin-top: 20px;
     margin: 10px;
     padding-top: 10px;
 }
+
 .greeting {
     color: white;
     font-family: "Roboto";
@@ -74,13 +71,15 @@
 .about {
     font-family: "Roboto";
     padding: 0 20px;
-    max-width:450px;
-    margin:40px 0;
-    text-align:left;
+    max-width: 450px;
+    margin: 40px 0;
+    text-align: left;
 }
+
 .about p {
-  line-height: 1.6;
+    line-height: 1.6;
 }
+
 .navbar-name {
     font-weight: bold;
     color: black;
@@ -95,6 +94,7 @@
     padding: 20px;
     font-family: "Roboto";
 }
+
 .skills-sub-container {
     padding: 10px;
 }
@@ -148,6 +148,15 @@
     color: #323f4b;
 }
 
+@media(min-width: 768px) {
+    .home {
+        padding: 50px;
+        padding-top: 100px;
+        padding-right: 100px;
+    }
+}
+
+
 
 @media(max-width: 768px) {
     .main-section {
@@ -155,18 +164,21 @@
         text-align: center;
         max-width: 90%;
         margin: 0 auto;
-        
+
     }
-    .name{
+
+    .name {
         font-size: 24px;
         line-height: 1.3;
     }
-    .role{
+
+    .role {
         font-size: 20px;
         line-height: 1.5;
         margin: 15px 0;
     }
-    .tagline{
+
+    .tagline {
         font-size: 14px;
         line-height: 1.5;
         margin: 15px 0;
