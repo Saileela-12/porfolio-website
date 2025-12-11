@@ -164,6 +164,11 @@
         line-height: 1.5;
         margin: 15px 0;
     }
+    .tagline{
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 15px 0;
+    }
 
     .image {
         order: -1;
