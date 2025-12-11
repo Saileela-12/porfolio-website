@@ -1,0 +1,160 @@
+.main-section {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.image {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    .main-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image {
+        order: -1;
+    }
+}
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dgnaqakyg/image/upload/v1763546238/workstation-with_laptop_pudqfn.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    padding: 50px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+.education {
+    padding: 20px;
+}
+
+.projects {
+    padding: 20px;
+}
+
+.project1 {
+    margin-top:20px;
+    margin: 10px;
+    padding-top: 10px;
+}
+.greeting {
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.name {
+    color: #F5C227;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.role {
+    color: #F5C227;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.tagline {
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.about {
+    font-family: "Roboto";
+    padding: 0 20px;
+    max-width:450px;
+    margin:40px 0;
+    text-align:left;
+}
+.about p {
+  line-height: 1.6;
+}
+.navbar-name {
+    font-weight: bold;
+    color: black;
+    background-color: #F5C227;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.skills-container {
+    padding: 20px;
+    font-family: "Roboto";
+}
+.skills-sub-container {
+    padding: 10px;
+}
+
+.header {
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sub-header {
+    color: orange;
+    font-size: 18px;
+}
+
+.paragraph {
+    color: white;
+    font-size: 15px;
+}
+
+.footer {
+    padding: 30px;
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+
+#navItem1 {
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+#navItem2 {
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+#navItem3 {
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+#navItem4 {
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+#navItem5 {
+    font-family: "Roboto";
+    color: #323f4b;
+}
